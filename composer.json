@@ -1,0 +1,19 @@
+{
+    "name": "xitoid/xoweb",
+    "description": "Simple web framework from self-taught learner.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xitoid\\App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xitoid",
+            "email": "agungsetiawan.afund@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
