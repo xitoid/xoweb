@@ -4,8 +4,13 @@
     "type": "project",
     "license": "MIT",
     "autoload": {
+        "files": [
+          "xo/App/boot.php"
+          ],
         "psr-4": {
-            "Xitoid\\App\\": "app/"
+            "Xitoid\\App\\": "app/",
+            "Xitoid\\Xoweb\\": "xo/",
+            "App\\": "app/"
         }
     },
     "authors": [
@@ -15,5 +20,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "xitoid/saffron": "dev-main",
+        "filp/whoops": "^2.14",
+        "twig/twig": "3.4.1"
+    }
 }
