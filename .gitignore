@@ -1,3 +1,4 @@
 /app
 /vendor
+/public/media
 composer.lock
